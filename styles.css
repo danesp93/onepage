@@ -568,6 +568,34 @@ button {
   border: 1px solid var(--border);
 }
 
+.sponsor-card img {
+  display: block;
+  width: 100%;
+  height: 64px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.sponsor-name {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: var(--dark);
+}
+
+.sponsor-platinum img {
+  height: 80px;
+}
+
+.sponsor-gold img {
+  height: 72px;
+}
+
+.sponsor-silver img {
+  height: 60px;
+}
+
 .sponsor-card:hover {
   transform: translateY(-4px) scale(1.02);
   box-shadow: var(--shadow);
